@@ -1,0 +1,103 @@
+/*
+filename: [assingaaryan]
+author: [aaryan]
+created: [22 aug]
+last modified: [22 aug]
+description: [index.html]
+*/
+
+h1 {color:white ; font-size: 2em; font-weight:bold; }
+body {
+background-image: url("images/poop.png");
+background-size: 100%;
+
+background-repeat: repeat;
+}
+
+	body {color:white; }
+	    * {font-family: calabri, sans-serif;}
+	
+h2 {color:white; font-size: 1.5em; font-weight:bold; }
+aside {
+	border: 2px solid white;
+	float: right;
+	width: 30%;	
+	padding: 3px;
+}
+table, th, td {
+	margin: auto;
+	border: 1px solid white;
+	padding: 10px;
+
+}
+th {
+	background: darkcyan;
+}
+td {
+	background: lightcoral;
+}
+footer {font-style: italic;
+		text-align: center;
+		width: 100%;
+		}
+h1 {font-family: georgia, sans-serif;}
+h2 {font-family: arial, sans-serif;}
+h3 {font-family: arial, sans-serif;}
+
+
+nav a { text-decoration: none;
+		padding:0.2em 0.6em;
+		border: 2px solid #ccc;
+	    border-style: solid;
+	    border-width: 3px;
+	    border-radius: 15px;
+	    color: lightcoral;
+	    background: rgb(1,112,135);
+		background: linear-gradient(90deg, rgba(1,112,135,1) 0%, rgba(0,0,0,1) 62%);
+	    
+	}
+footer {
+	text-align: center;
+     width: 100%;
+   }
+       *{font-family: italic}
+a {color: lightcoral;}
+.menu:hover {border-color: red;}
+a:hover {color: white;}
+nav a:hover {		background: rgb(0,0,0);
+		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(7,129,149,1) 48%, rgba(1,112,135,1) 100%);
+ }
+ #logo { float: right; }
+
+
+ .sliding {
+ 	width: 100vw;
+ 	height: 8vh;
+ 	color: black;
+
+ }
+.sliding1 {
+	list-style: none;
+	display: flex;
+	height: 60%;
+	animation: slide 20s linear infinite
+
+
+}
+.sliding1 li {
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	color: white;
+
+}
+
+@keyframes slide {
+	0%{transform: translateX(100vw);}
+	100%{transform: translateX(-100vw);}
+}
+
+
+
+
+

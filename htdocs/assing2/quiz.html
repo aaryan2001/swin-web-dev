@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="SGML and XML" /> 
+  <meta name="keywords" content="HTML, CSS, JAVASCRIPT" />
+  <meta name="author" content="aaryan" />
+  <title> QUIZ </title>
+  <link href= "styles/sgml.css" rel="stylesheet"/>
+  <script src="scripts/quiz.js"></script>
+  <script src="scripts/enhancemets.js"></script>
+</head>
+<body>
+  <header>
+  <img src= "images/sgml-xml-html.png" alt="logo" id="logo" />
+  <h1> INTRODUTION to SGML and XML </h1>
+  <br>
+  <nav>
+    <a href="index.html" class="menu" target="_blank" title="open index page">INTRO</a>
+    <a href="topic.html" class="menu" target="_blank" title="topic">TOPIC</a>
+    
+    <a href="quiz.html" class="menu" target="_blank" title="QUIZ">QUIZ</a>
+    <a href="enhancement.html" class="menu" target="_blank" title="enhancement">ENHANCEMENTS</a>
+    <a href="enhancement2.html" class="menu" target="_blank" title="enhancement">ENHANCEMENTS2</a>
+  </nav>
+  <br>
+  <hr>
+  <br>
+  <audio autoplay="autoplay" controls="controls" id=song>    
+    <source src="audio/audio1.mp3" />  
+</audio>
+ <form id="regform" method="post" action="result.html">
+  <fieldset>
+    <legend>Personal Details.</legend>
+  First name:
+  <br>
+  <input type="text" name="firstname" pattern="^[a-zA-Z].{1,}" maxlength="30" required="required" id="firstname" /><br>
+  Last name:
+  <br>
+  <input type="text" name="lastname" pattern="^[a-zA-Z].{1,}" maxlength="30" required="required" id="lastname">
+  <br>
+  Student ID:
+  <br>
+  <input type="text" name="ST_ID" pattern="^[0-9].{7,}" maxlength="10" required="required" id= "studentid">
+  <br>
+ 
+  <p> What is your gender? </p>
+  <input type="radio" name="gender" value="male" id="male" required="required"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other" id="others"> Other
+  <br>
+   </fieldset>
+  <fieldset>
+    <legend>Quiz on topic.</legend>
+  <br>
+  What is the full form of SGML?:
+  <br>
+  <input type="text" name="sgml" id="sgml" required="required" ><br>
+  <br>
+   What is the full form of XML:
+  <br>
+  <input type="text" name="xml" id="xml" required="required" ><br>
+  <p> State TRUE OR FALSE.</p>
+
+  <p>
+ SGML is a markup language.
+   </p>
+
+ <select name="droplist" id="sgmlmark">
+    <option value="op1" >PLEASE SELECT AN OPTION</option>
+  <option value="true1"  >TRUE</option>
+  <option value="false1" >FALSE</option>
+</select>
+  <p> State TRUE OR FALSE.</p>
+  <p>
+      XML is a part of SGML.
+   </p>
+
+<select name="part" id="sxpart">
+      <option value="op2" >PLEASE SELECT AN OPTION</option>
+  <option value="true2" >TRUE</option>
+  <option value="false2" >FALSE</option>
+</select>
+
+  <p> Which of these are markup languages? </p>
+    <label><input type="checkbox" name="sgml-xml-html" value="sgml" checked="checked" id="partmark1" />SGML</label><br>
+    <label><input type="checkbox" name="sgml-xml-html" value="xml" id="partmark2" />XML</label><br>
+    <label><input type="checkbox" name="sgml-xml-html" value="html" id="partmark3" />HTML</label><br>
+    <label><input type="checkbox" name="sgml-xml-html" value="dtml" id="partmark4" />DTML</label><br>
+
+
+  <p> Which of these helps to view business documents on browser ? </p>
+  <input type="radio" name="view" value="sgml" id="bus" required="required" checked> SGML<br>
+  <input type="radio" name="view" value= "xml"> XML<br>
+  <input type="radio" name="view" value="html"> HTML<br>
+  
+<div id=map></div>
+  </fieldset>
+    <br>
+    <p id="button">
+      <input type="submit" value="Submit" id="submit">
+    </p>
+ </form>
+
+ </header>
+  <br>
+  <hr>
+<footer> <a href="mailto:102599490@swin.edu.au">STUDENT EMAIL : 102599490@swin.edu.au </a></footer>
+</body>
+</html> 
